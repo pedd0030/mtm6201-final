@@ -1,0 +1,137 @@
+/*GENERAL STYLES*/
+body{
+    font-size: 1.4rem;
+}
+
+h1, h2{
+    font-size: 3rem;
+}
+
+
+
+/*NAV STYLES*/
+nav{
+    background-color: #EE4A4A;
+     padding-top: none;
+ }
+ 
+
+ a:link {
+    text-decoration: none;
+ }
+
+ a{
+     color: inherit;
+ }
+ 
+ nav ul{
+     list-style: none;
+ }
+ 
+ a:visited{
+     color: inherit;
+ }
+ 
+ nav a:hover{
+     color: #6e8894;
+ }
+ 
+ nav ul{
+     display: flex;
+     justify-content: space-around;
+     justify-items: center;
+     font-size: 2rem;
+     text-transform: uppercase;
+     font-weight: bold;
+     list-style: none;
+ }
+
+ nav li{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+ nav ul a{
+    padding-top: 20px;
+ }
+
+.logo {
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+body{
+    background-color: #363636;
+}
+
+
+/*FOOTER STYLES*/
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #EE4A4A;
+}
+
+footer li{
+    background: white;
+    padding: 15px;
+    border-radius: 55%;
+}
+
+.copyright {
+    font-size: 1rem;
+    background: none;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+/*HOMEPAGE CSS*/
+.homeimage{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Mobile Styles */
+@media (max-width: 650px) {
+ .container{
+
+    }
+}
+
+
+    /*TABLET STYLES*/
+    @media (min-width: 651px) and (max-width: 992px)  {
+        .container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*DESKTOP*/
+    @media (min-width: 993px) {
+
+   .container {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-right: auto ;
+        margin-left: auto;
+        max-width: 900px;
+    }
+}
