@@ -12,7 +12,7 @@ h1, h2{
 /*NAV STYLES*/
 nav{
     background-color: #EE4A4A;
-     padding-top: none;
+     padding-top: 20px;
  }
  
 
@@ -135,3 +135,78 @@ footer li{
         max-width: 900px;
     }
 }
+
+
+
+
+
+
+
+
+/* ABOUT STYLES */
+
+.aboutcontainer{
+    max-width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: #EE4A4A;
+}
+
+@media (max-width: 650px) {
+    .aboutcontainer{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   }
+
+   @media (min-width: 651px) and (max-width: 992px)  {
+    .me{
+       float: inline-start;
+    }
+}
+
+
+
+/* CONTACT STYLES */
+
+form{
+    max-width: 75%;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #EE4A4A;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+form input[type=text] {
+    height: 30px;
+    margin-top: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    
+    form input[id="message"] {
+        height: 150px;
+    }
+    
+    form [type=submit] {
+    
+        margin-top: 20px;
+      
+      
+    }
+
+    .contactcontainer{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
